@@ -36,11 +36,12 @@ void average(float* arrayX, float* arrayY, int arrayLength, float* averageX, flo
 void slope(float* arrayX, float* arrayY, float averageX, float averageY, float *slope, int arrayLength);
 
 
-// Compute the intercept
-// y = 0
-// y = mx + b
-// slope * x value
-// b = y - mx
+/* Compute the intercept
+    y = 0
+    y = mx + b
+    slope * x value
+    b = y - mx
+*/
 
 float intercept(float slope, float averageX, float averageY);
 
