@@ -4,4 +4,5 @@
 - To run `./regression` and you should see the `y = mx + b` form of the regression line. 
 
 ### Note
-I used OpenAnalysis.org to get random points for testing
+- I used OpenAnalysis.org to get random points for testing
+- Currently only up to 100 data points can be used to change this the array needs to be updated manually in main with `arrayX[size] and arrayY[size]`
